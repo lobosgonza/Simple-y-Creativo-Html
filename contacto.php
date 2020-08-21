@@ -52,7 +52,7 @@
                 <a class="text-center nav-link "  href="./servicios.html">Servicios</a>
 </li>
             <li class="nav-item">
-        <a class="text-center nav-link"  href="./contacto.html">Contacto</a>
+        <a class="text-center nav-link"  href="./contacto.php">Contacto</a>
 </li>
 </ul>
 </div>
@@ -70,17 +70,23 @@
 
       <div class="form-group col">
         <h3>Escríbenos y te contactaremos a la brevedad!</h3>
-        <form class="" action="/" method="post">
+
+        <form id="contact-form" class="" action="contact-form-handler.php" method="post">
         <label >Nombre</label>
-        <input type="text" class="form-control" placeholder="Esteban Valencia" name="name">
+        <input type="text" class="form-control" placeholder="Esteban Valencia" name="name" required>
         <label> Teléfono de contacto </label>
         <input type="number" class="form-control" placeholder="+569 25432187" name="numero">
         <label >Mail</label>
-        <input type="email" class="form-control" placeholder="contacto@simpleycreativo.cl" name="email">
+        <input type="email" class="form-control" placeholder="contacto@simpleycreativo.cl" name="email" required>
         <label >¿En qué te podemos ayudar? Cuéntanos</label>
-        <textarea class="form-control" rows="3" placeholder="Escriba aquí sobre su idea o proyecto. Te contactaremos a la brevedad." name="textBox"></textarea>
-        <button type="submit" class="btn btn-lg btn-secondary mt-3">Enviar</button>
+        <textarea class="form-control" rows="3" placeholder="Escriba aquí sobre su idea o proyecto. Te contactaremos a la brevedad." name="message" required></textarea>
+        <button type="submit" class="submit btn btn-lg btn-secondary mt-3" name="submit">Enviar</button>
       </div>
+    </form>
+
+<?php
+include("contact-form-handler.php");
+ ?>
 
     <div class="col d-none d-lg-block">
         <div class="./contacto.png">
@@ -89,7 +95,6 @@
       </div>
 
         </div>
-  </form>
 
   </div>
 
@@ -106,7 +111,7 @@
   <li><a class="nav-mastfooter" href="./index.html">Inicio</a></li>
   <li><a class="nav-mastfooter" href="./quienes-somos.html">Quienes Somos</a></li>
   <li><a class="nav-mastfooter" href="./servicios.html">Servicios</a></li>
-  <li><a class="nav-mastfooter" href="./contacto.html">Contacto</a> </li>
+  <li><a class="nav-mastfooter" href="./contacto.php">Contacto</a> </li>
 </ul>
       </div>
       <div class="col-lg-6 col-md-6 nav-footer text-center text-md-right pb-3 ">
