@@ -1,0 +1,11 @@
+{
+  "name": "simpleycreativo",
+  "version": "1.0.0",
+  "description": "Simple y creativo host",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gonzalo Lobos / Ocar Tucas",
+  "license": "ISC"
+}
