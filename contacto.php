@@ -89,7 +89,7 @@ include("contact-form-handler.php");
  ?>
 
     <div class="col d-none d-lg-block">
-        <div class="./contacto.png">
+        <div class="">
 <img src="./img/contacto.png" alt="img-contacto">
         </div>
       </div>
