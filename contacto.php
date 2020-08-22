@@ -43,7 +43,7 @@
 
             <ul class="navbar-nav ml-auto nav-masthead">
               <li class="nav-item">
-                <a class="text-center nav-link active" href="./index.html">Home </a>
+                <a class="text-center nav-link " href="./index.html">Home </a>
               </li>
               <li class="nav-item">
                 <a class="text-center nav-link" href="./quienes-somos.html">Quienes Somos</a>
@@ -52,7 +52,7 @@
                 <a class="text-center nav-link "  href="./servicios.html">Servicios</a>
 </li>
             <li class="nav-item">
-        <a class="text-center nav-link"  href="./contacto.php">Contacto</a>
+        <a class="text-center nav-link active"  href="./contacto.php">Contacto</a>
 </li>
 </ul>
 </div>

@@ -27,10 +27,9 @@ $txt = "Has recibido un mensaje de ".$name."\n\n".$message;
 
 $mail = @mail($to, $email_subject, $email_body, $header);
 if($mail){
-  header("Location : https://simpleycreativo.cl/success.html");
-}else{
-  header("Location : https://simpleycreativo.cl/failure.html");
-}
+  header("Location : http://simpleycreativo.cl/success.html");
+}else {
+  header("Location : http://simpleycreativo.cl/failure.html");
 
 }
 }
