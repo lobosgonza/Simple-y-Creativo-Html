@@ -81,8 +81,8 @@
         <input type="number" class="form-control" placeholder="+569 25432187" name="numero">
         <label >Mail</label>
         <input type="email" class="form-control" placeholder="contacto@simpleycreativo.cl" name="email" required>
-        <label >¿En qué te podemos ayudar? Cuéntanos</label>
-        <textarea class="form-control" rows="3" placeholder="Escriba aquí sobre su idea o proyecto. Te contactaremos a la brevedad." name="message" required></textarea>
+        <label >¿En qué te podemos ayudar?</label>
+        <textarea class="form-control" rows="3" placeholder="Cuéntanos sobre tu idea o proyecto. Te contactaremos a la brevedad." name="message" required></textarea>
         <button type="submit" class="submit btn btn-lg btn-secondary mt-3" name="submit">Enviar</button>
       </div>
     </form>
@@ -119,9 +119,9 @@ include("contact-form-handler.php");
       </div>
       <div class="col-lg-6 col-md-6 nav-footer text-center text-md-right pb-3 ">
         <p>Simple y Creativo</p>
-        <p> +569 659 610 86</p>
+        <p>+569 659 610 86</p>
         <p>contacto@simpleycreativo.cl</p>
-        <p> Santiago </p>
+        <p>Santiago </p>
 
       </div>
     </div>
