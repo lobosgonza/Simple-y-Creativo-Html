@@ -27,7 +27,9 @@ $txt = "Has recibido un mensaje de ".$name."\n\n".$message;
 
 $mail = @mail($to, $email_subject, $email_body, $header);
 if($mail){
-  echo "<h3>Su formulario ha sido enviado con exito</h3>";
+  header("Location: https://simpleycreativo.cl/success.html");
+} else{
+    header("Location: https://simpleycreativo.cl/failure.html");
 }
 
 }

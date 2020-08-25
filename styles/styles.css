@@ -51,7 +51,7 @@ a:hover {
 }
 
 .btn-title{
-  background-color: #ad4618;
+  background-color: #f16821;
   color: #f4f4f4;
 }
 
@@ -147,6 +147,21 @@ footer ul{
 .bg-celeste{
   background-color: #99beff;
 }
+.bg-img{
+  background: #FD8F56;
+  background-image: url("../img/bg-title.png");
+}
+.oscurecer{
+  background-color: rgba(0,0,0,0.6);
+}
+.img-bg-size{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  width:100%;
+}
+
 /*
  * Navegador
  */

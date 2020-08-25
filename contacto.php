@@ -34,7 +34,8 @@
 
 
           <a class="masthead-brand navbar-brand " href="/">
-            <img src="./img/icono-nav.svg" class="nav-icon" alt="nav-icon"> Simple y Creativo </a>
+            <!-- <img src="./img/icono-nav.svg" class="nav-icon" alt="nav-icon">  -->
+            Simple y Creativo </a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class=" navbar-toggler-icon"></span>
